@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+
+
+:root{
+    --oi: #c97200ce;
+    
+}
+
+*{
+    margin: 0 auto;
+    
+}
+body{
+        background-color: darkseagreen;
+    padding: 20px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(225deg, rgba(255, 255, 255, .04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(45deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(315deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        var(--oi)
+}
+main{
+    max-width: 600px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; /* desgrudar elementos da borda */
+    border-radius: 15px; /* arredondar bordas */
+    box-shadow: 3px 3px 15px #362402; /* sombras valores positivos são direita e rodapé , útilmo valor é expansão da sombra */
+}
+img{
+    border-radius: 15px; 
+    max-width: 100%;
+     box-shadow: 1px 1px 5px #362402;
+}
+
+
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p,li{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h1,h2 {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#footer{
+    max-width: 700px;
+    text-align: center;
+    line-height: 80px;
+    color: aliceblue;
+
+
+}
